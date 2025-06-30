@@ -1,0 +1,51 @@
+/* General styles */
+.dashboard-container {
+  height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  height: 100%;
+  width: 200px; /* Set a fixed width for the sidebar */
+}
+
+.sidebar .nav-link {
+  color: #6c757d;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  color: #212529;
+  background-color: #e9ecef;
+}
+
+/* Content styles */
+.content {
+  padding: 1rem;
+}
+.logout-button {
+  width: 80px; /* Adjust the width as needed */
+  background-color: #fff;
+}
+
+
+/* Table styles */
+.table {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.table thead th {
+  border-bottom: none;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
